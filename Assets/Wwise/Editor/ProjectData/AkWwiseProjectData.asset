@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215fdadbff28d634399fb9eabb3a0f5f, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 88bff9858315d74fbfccf72c19180111
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 88bff9858315d74fbfccf72c19180111
+    GuidInternal: 
+    m_lastTime: -8585097554999538434
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cdf1460092543445a5f2011e6772ccfc
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: cdf1460092543445a5f2011e6772ccfc
+    GuidInternal: 
+    m_lastTime: -8585096735819920981
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cdf1460092543445a5f2011e6772ccfc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8e7e4620cf31894fb7cf9d65b5b48241
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 8e7e4620cf31894fb7cf9d65b5b48241
+    GuidInternal: 
+    m_lastTime: -8585080412928012301
+    List:
+    - name: Main
+      guid: 17139985fd99ff4b903132783c5afa7f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8e7e4620cf31894fb7cf9d65b5b48241
+      - ElementName: Main
+        ObjectType: 7
+        guid: 17139985fd99ff4b903132783c5afa7f
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 26fcef55e3d9e64e805d003c36a8bade
+    ParentPath: Events\Default Work Unit
+    guid: 26fcef55e3d9e64e805d003c36a8bade
+    GuidInternal: 
+    m_lastTime: -8585074403647662357
+    List:
+    - name: ConvertEnergyToHeat
+      guid: 14c0f3f9589f1747a33ed022f3efeacc
+      id: 2479627535
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: ConvertEnergyToHeat
+        ObjectType: 3
+        guid: 14c0f3f9589f1747a33ed022f3efeacc
+      Path: Events\Default Work Unit\ConvertEnergyToHeat
+      maxAttenuation: 0
+      maxDuration: 0.94248074
+      minDuration: 0.94248074
+    - name: DecreasePitch
+      guid: 4b2c7d7f22fe7c49a924ae6d471c4fa8
+      id: 3194955969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: DecreasePitch
+        ObjectType: 3
+        guid: 4b2c7d7f22fe7c49a924ae6d471c4fa8
+      Path: Events\Default Work Unit\DecreasePitch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: IllegalAction
+      guid: 46e9ca1dd187be459cac12fa7e66c827
+      id: 3967177059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: IllegalAction
+        ObjectType: 3
+        guid: 46e9ca1dd187be459cac12fa7e66c827
+      Path: Events\Default Work Unit\IllegalAction
+      maxAttenuation: 0
+      maxDuration: 0.06696145
+      minDuration: 0.06696145
+    - name: IncreasePitch
+      guid: d8de1be15216ff46a1d0e60aacd17e10
+      id: 639711449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: IncreasePitch
+        ObjectType: 3
+        guid: d8de1be15216ff46a1d0e60aacd17e10
+      Path: Events\Default Work Unit\IncreasePitch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Increment
+      guid: 70786939f2d5b8408902f9273a0a8caa
+      id: 2635251436
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: Increment
+        ObjectType: 3
+        guid: 70786939f2d5b8408902f9273a0a8caa
+      Path: Events\Default Work Unit\Increment
+      maxAttenuation: 0
+      maxDuration: 0.037580844
+      minDuration: 0.037580844
+    - name: ResetPitch
+      guid: 7ade31bbc6c47c428c626c772dca1cc4
+      id: 1886807748
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: ResetPitch
+        ObjectType: 3
+        guid: 7ade31bbc6c47c428c626c772dca1cc4
+      Path: Events\Default Work Unit\ResetPitch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartEnergyProduction
+      guid: 09ab86ff9ebf454e8e9c664584367194
+      id: 845569182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartEnergyProduction
+        ObjectType: 3
+        guid: 09ab86ff9ebf454e8e9c664584367194
+      Path: Events\Default Work Unit\StartEnergyProduction
+      maxAttenuation: 0
+      maxDuration: 0.7850179
+      minDuration: 0.7850179
+    - name: StartHeatProduction
+      guid: 0f85c291adfe7d4eb2e8c02d7be0032d
+      id: 3091850524
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartHeatProduction
+        ObjectType: 3
+        guid: 0f85c291adfe7d4eb2e8c02d7be0032d
+      Path: Events\Default Work Unit\StartHeatProduction
+      maxAttenuation: 0
+      maxDuration: 1.1765542
+      minDuration: 1.1765542
+    - name: StartMegaBucksProduction
+      guid: 41bac473336f204abc04a2c9cb374cc5
+      id: 3188786370
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartMegaBucksProduction
+        ObjectType: 3
+        guid: 41bac473336f204abc04a2c9cb374cc5
+      Path: Events\Default Work Unit\StartMegaBucksProduction
+      maxAttenuation: 0
+      maxDuration: 4.7314286
+      minDuration: 4.7314286
+    - name: StartPlantProduction
+      guid: 7b4c2c2d8eb8a645a5098c3f7a112471
+      id: 3664407803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartPlantProduction
+        ObjectType: 3
+        guid: 7b4c2c2d8eb8a645a5098c3f7a112471
+      Path: Events\Default Work Unit\StartPlantProduction
+      maxAttenuation: 0
+      maxDuration: 0.66931117
+      minDuration: 0.66931117
+    - name: StartSteelProduction_1
+      guid: 0f164e5e357b9a46a28e7a38d9014af2
+      id: 492951185
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartSteelProduction_1
+        ObjectType: 3
+        guid: 0f164e5e357b9a46a28e7a38d9014af2
+      Path: Events\Default Work Unit\StartSteelProduction_1
+      maxAttenuation: 0
+      maxDuration: 0.4640136
+      minDuration: 0.4640136
+    - name: StartSteelProduction_2
+      guid: 1481aaac27e0ba40926f98d3e58e6a23
+      id: 492951186
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartSteelProduction_2
+        ObjectType: 3
+        guid: 1481aaac27e0ba40926f98d3e58e6a23
+      Path: Events\Default Work Unit\StartSteelProduction_2
+      maxAttenuation: 0
+      maxDuration: 0.9185714
+      minDuration: 0.9185714
+    - name: StartSteelProduction_3
+      guid: 9c3c9d8c626f0643b45ac7c0768b6369
+      id: 492951187
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartSteelProduction_3
+        ObjectType: 3
+        guid: 9c3c9d8c626f0643b45ac7c0768b6369
+      Path: Events\Default Work Unit\StartSteelProduction_3
+      maxAttenuation: 0
+      maxDuration: 1.39678
+      minDuration: 1.39678
+    - name: StartTitaniumProduction_1
+      guid: 5b33049f7c0cdd4f855c9dddc198d8ab
+      id: 3269279519
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartTitaniumProduction_1
+        ObjectType: 3
+        guid: 5b33049f7c0cdd4f855c9dddc198d8ab
+      Path: Events\Default Work Unit\StartTitaniumProduction_1
+      maxAttenuation: 0
+      maxDuration: 0.48768708
+      minDuration: 0.48768708
+    - name: StartTitaniumProduction_2
+      guid: 180091c7f81cba44992b038b6e4516ee
+      id: 3269279516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartTitaniumProduction_2
+        ObjectType: 3
+        guid: 180091c7f81cba44992b038b6e4516ee
+      Path: Events\Default Work Unit\StartTitaniumProduction_2
+      maxAttenuation: 0
+      maxDuration: 0.9564399
+      minDuration: 0.9564399
+    - name: StartTitaniumProduction_3
+      guid: 5be8174435e82445af2901ce820ba533
+      id: 3269279517
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StartTitaniumProduction_3
+        ObjectType: 3
+        guid: 5be8174435e82445af2901ce820ba533
+      Path: Events\Default Work Unit\StartTitaniumProduction_3
+      maxAttenuation: 0
+      maxDuration: 1.4346485
+      minDuration: 1.4346485
+    - name: StopCurrentProduction
+      guid: 7ab6d9304f84bf4683672f9ae1692d94
+      id: 840508145
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26fcef55e3d9e64e805d003c36a8bade
+      - ElementName: StopCurrentProduction
+        ObjectType: 3
+        guid: 7ab6d9304f84bf4683672f9ae1692d94
+      Path: Events\Default Work Unit\StopCurrentProduction
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3c215b81de89464590786972e274cd75
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 3c215b81de89464590786972e274cd75
+    GuidInternal: 
+    m_lastTime: -8585097555000126470
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0e184209f374d24ba3081dc03ce71388
+    ParentPath: States\Default Work Unit
+    guid: 0e184209f374d24ba3081dc03ce71388
+    GuidInternal: 
+    m_lastTime: -8585097554999797567
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bdae9bed6bde604ea915993ed5a41aa0
+    ParentPath: Switches\Default Work Unit
+    guid: bdae9bed6bde604ea915993ed5a41aa0
+    GuidInternal: 
+    m_lastTime: -8585097554999040100
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9823357efe8b014e8b9e2453f75d8fce
+    ParentPath: Triggers\Default Work Unit
+    guid: 9823357efe8b014e8b9e2453f75d8fce
+    GuidInternal: 
+    m_lastTime: -8585097554999369003
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000a1000000a20000001401000015010000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

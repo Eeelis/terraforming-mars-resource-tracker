@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TFM_tracker_WwiseProject" GUID="{FA9B4DB9-67C7-4442-B5B5-15EE4E4ADE9D}" Generator="2022.1.6.8263"/>
+	<CacheRoot>../../../../TFM_tracker_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{E707F962-6BCA-4798-B533-FB58491208F2}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../TFM_tracker_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{E855B444-1735-430D-95B1-0D9A123C5241}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../TFM_tracker_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{C4E3AEC9-8D65-4D73-94F7-099B6978002B}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{D951CBED-61D4-FA44-8CDD-5DF0621DC02A}</FileHash>
+</ProjectInfo>
