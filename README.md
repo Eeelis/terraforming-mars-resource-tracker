@@ -8,4 +8,4 @@ Built in Unity Engine 2020.3.25f1.1418. Sounds implemented with Wwise.
 
 <br>
 
-<img src="https://github.com/Eeelis/terraforming-mars-resource-tracker/blob/main/Images/Interface.png" height=400>
+<img src="https://github.com/Eeelis/terraforming-mars-resource-tracker/blob/main/Images/Interface.png" height=600>
